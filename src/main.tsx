@@ -10,7 +10,7 @@ import {DailyPhrases} from "./components/english/Common/Daily.tsx";
 import {TableOfVerbs} from "./components/english/TableOfVerbs/TableOfVerbs.tsx";
 
 const router = createBrowserRouter([{
-    path: "/school-education", element: <App/>
+    path: "/", element: <App/>
 }, {
     path: '/english/ps', element: <EnglishPresentSimple/>
 }, {
