@@ -2,7 +2,7 @@
   "name": "school-education",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dvsherbakov.github.io/school-education",
+  "homepage": "https://dvsherbakov.github.io/school-education/",
   "type": "module",
   "scripts": {
     "dev": "vite",

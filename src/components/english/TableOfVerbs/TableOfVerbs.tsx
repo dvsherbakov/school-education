@@ -70,7 +70,7 @@ export const TableOfVerbs = () => (<div className={styles.table}>
     <div className={styles.cell}>
         <div className={styles.group}>
             <div className={styles.pGroup}><span>I</span><span>You</span><span>We</span><span>They</span><span>He</span><span>She</span></div>
-            <div className={styles.pGroup}>will loved</div>
+            <div className={styles.pGroup}>loved</div>
         </div>
     </div>
     <div className={styles.cell}>
