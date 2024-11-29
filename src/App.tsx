@@ -1,10 +1,10 @@
 import './App.css'
 import {useState} from "react";
-import {EnglishPresentSimple} from "./components/english/PresentSimple/EnglishPresentSimple.tsx";
-import {EnglishToBe} from "./components/english/ToBe/EnglishToBe.tsx";
-import {DailyPhrases} from "./components/english/Common/Daily.tsx";
-import {Phrases} from "./components/english/Phrases/Phrases.tsx";
-import {TableOfVerbs} from "./components/english/TableOfVerbs/TableOfVerbs.tsx";
+import {EnglishPresentSimple, TimesTest} from "./components/english";
+import {EnglishToBe} from "./components/english";
+import {DailyPhrases} from "./components/english";
+import {Phrases} from "./components/english";
+import {TableOfVerbs} from "./components/english";
 
 const params = new Map([
     [0, <EnglishPresentSimple/>],
@@ -12,6 +12,7 @@ const params = new Map([
     [2, <Phrases/>],
     [3, <DailyPhrases/>],
     [4, <TableOfVerbs/>],
+    [5, <TimesTest/>]
 ])
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <li><span onClick={() => setSelected(2)}>Phrases verb</span></li>
                     <li><span onClick={() => setSelected(3)}>Common phrases</span></li>
                     <li><span onClick={() => setSelected(4)}>Table of verbs</span></li>
+                    <li><span onClick={() => setSelected(5)}>Test</span></li>
                 </ul>
 
             </div>

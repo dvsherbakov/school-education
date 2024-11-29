@@ -1,4 +1,4 @@
-import styles from "../english.module.scss";
+import styles from "./english.module.scss";
 
 export const EnglishToBe = () => (
     <>

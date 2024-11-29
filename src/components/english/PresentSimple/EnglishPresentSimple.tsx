@@ -1,4 +1,4 @@
-import styles from '../english.module.scss'
+import styles from '../ToBe/english.module.scss'
 
 export const EnglishPresentSimple = () => (<>
     <div className={styles.center}>I, you, we, they</div>

@@ -1,0 +1,6 @@
+export {Phrases} from './Phrases'
+export {DailyPhrases} from './Common'
+export {EnglishPresentSimple} from './PresentSimple'
+export {TableOfVerbs} from './TableOfVerbs'
+export {TimesTest} from './TimesTest'
+export {EnglishToBe} from './ToBe'
